@@ -1,0 +1,294 @@
+/*
+ * Copyright (C) 2016 - 2017 Schimon Jehuda. Released under MIT license
+ * Feeds rendered using this XSLT stylesheet, or it's derivatives, must
+ * include https://sjehuda.github.io/ in attribute name='generator' of
+ * element <meta/> inside of html element </head>
+ */
+
+body {
+  background: #dddddd;
+  color: #525c66;
+  font-family: sans-serif;
+}
+
+body:after {
+  border-width: 20px;
+  content: 'This feed is an XML-based syndication document which is '
+  'assembled by a set of attached metadata that is outlined by this '
+  'document; this feed is primarily intended to be used with and '
+  'syndicated to news aggregators, media players, download managers '
+  'and podcast managers, or to be syndicated into external blogs or '
+  'websites.';
+  direction: ltr;
+  display: block;
+  font-family: serif;
+  font-size: 70%;
+  line-height: 1.6;
+  margin: 25px auto 10px auto;
+  max-width: 650px;
+  overflow: auto;
+  padding: 10px 40px;
+  text-align: justify;
+  text-indent: 20px;
+  -webkit-border-image: url(qrc:html/box-border.png) 25;
+  -webkit-border-image: url(box-border.png) 25;
+}
+
+#feed * {
+  max-width: 100%;
+}
+
+#feed {
+  border-width: 20px;
+  font-size: 100%;
+  line-height: 1.6;
+  margin: 25px auto 10px auto;
+  max-width: 650px;
+  min-width: 400px;
+  overflow: auto;
+  padding: 10px 40px;
+  -webkit-border-image: url(qrc:html/box-border.png) 25;
+  -webkit-border-image: url(box-border.png) 25;
+}
+
+#logo {
+  border: 2px solid #c7cacc;
+  border-radius: 50%;
+  display: inline-block;
+  float: right;
+  margin-right: -5px;
+  overflow: hidden;
+  position: relative;
+  height: 5em;
+  width: 5em;
+}
+
+#logo > a > img {
+  margin: auto;
+  position: absolute;
+  width: 5em;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#title {
+  color: #1a4ba4;
+  font-size: 160%;
+  font-weight: bold;
+  margin-bottom: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#title .empty:before {
+  content: 'QupZilla Feed Viewer';
+}
+
+/* horizontal rule */
+#title:after {
+  background: GrayText;
+  content: "";
+  display: block;
+  height: 1.5px;
+  width: 98%;
+}
+
+#subtitle {
+  color: GrayText;
+  font-size: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 98%;
+}
+
+.entry {
+  margin-bottom: 1em;
+  padding-top: 2em;
+  clear: both;
+}
+
+//.clear {
+  clear: both;
+}
+
+.title {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: underline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+//.title {
+  cursor: pointer;
+  display: inline;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.title > a {
+  color: #525c66;
+}
+
+.title > a:hover:active {
+  color: #ff0000;
+}
+
+.title > a:visited {
+  color: #551a8b;
+}
+
+/* TODO place a graphical icon above character ⚲ */
+/* background: url(qrc:icons/pin.png) no-repeat; */
+.geolocation > a {
+  text-decoration: none;
+  padding-left: 6px;
+}
+
+.published, .updated {
+  font-size: 75%;
+  margin: 0px auto 0px auto;
+}
+
+.published:before {
+  content: 'Posted on ';
+}
+
+.updated:before {
+  content: 'Updated on ';
+}
+
+.content {
+  margin: 15px auto 15px 1%;
+/* text-align: justify;
+ * text-indent: 10px;
+ */
+}
+
+/* Respect plain-text (e.g. ASCII art) */
+.content[type='text'] {
+  font-family: monospace;
+/* text-align: initial;
+ * text-indent: 0px;
+ */
+}
+
+/* TODO consider InfoBackground instead of #dddddd */
+.enclosure {
+  background: url(mimetype.png) 0% 10% no-repeat #dddddd;
+  border: 1px solid GrayText;
+  border-radius: 4px;
+  clear: both;
+  color: #525c66;
+  cursor: help;
+  direction: ltr;
+  /* font-family: cursive; */
+  font-size: 0.8em;
+  margin: 5px auto 15px 1%;
+  padding: 15px;
+  vertical-align: middle;
+}
+
+/* NOTE the following CSS rules are for demonstration */
+/* MIME-Type text should be determined by given web browser */
+.enclosure > span:after {
+  content: ' (Document file) ';
+}
+
+.enclosure > span.executable:after {
+  content: ' (Executable file) ';
+}
+
+/* TODO resolve conflict with .image */
+.enclosure > span.image:after {
+  content: ' (Image file) ';
+}
+
+.enclosure > span.audio:after {
+  content: ' (Audio file) ';
+}
+
+.enclosure > span.video:after {
+  content: ' (Video file) ';
+}
+
+/* NOTE the following CSS rules are for demonstration */
+/* MIME-Type icon should be determined by given web browser */
+.enclosure > span[icon]:after {
+  content: url(qrc:icons/document.png);
+  content: '📰';
+  margin: 3px;
+}
+
+.enclosure > span[icon='executable']:after {
+  content: url(qrc:icons/executable.png);
+  content: '💻';
+  margin: 3px;
+}
+
+.enclosure > span[icon='image']:after {
+  content: url(qrc:icons/image.png);
+  content: '🔈';
+  margin: 3px;
+}
+
+.enclosure > span[icon='audio']:after {
+  content: url(qrc:icons/audio.png);
+  content: '🔈';
+  margin: 3px;
+}
+
+.enclosure > span[icon='video']:after {
+  content: url(qrc:icons/video.png);
+  content: '📹';
+  margin: 3px;
+}
+
+.warning {
+  display: block;
+  font-size: 60%;
+  font-weight: bold;
+  color: red;
+}
+
+
+.atom1.author:after { /* required under certain conditions */
+  content: 'Atom 1.0 Warning: Element </author> is missing';
+}
+
+.atom1.id:after {
+  content: 'Atom 1.0 Warning: Element </id> is missing';
+}
+
+
+.atom1.link:after { /* required under certain conditions */
+  content: 'Atom 1.0 Warning: Element </link> is missing';
+}
+
+.atom1.published:after {
+  content: 'Atom 1.0 Warning: Element </published> is missing';
+}
+
+.atom1.title:after {
+  content: 'Atom 1.0 Warning: Element </title> is missing';
+}
+
+.rss2.description:after {
+  content: 'RSS 2.0 Warning: Element </description> is missing';
+}
+
+.rss2.link:after {
+  content: 'RSS 2.0 Warning: Element </link> is missing';
+}
+
+.rss2.title:after {
+  content: 'RSS 2.0 Warning: Element </title> is missing';
+}

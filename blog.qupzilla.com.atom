@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="syndication4humans.xslt"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:blogger="http://schemas.google.com/blogger/2008" xmlns:georss="http://www.georss.org/georss" xmlns:gd="http://schemas.google.com/g/2005" xmlns:thr="http://purl.org/syndication/thread/1.0">
+  <id>tag:blogger.com,1999:blog-6366019251720461577</id>
+  <updated>2016-12-04T06:16:46.209-08:00</updated>
+  <category term="release"/>
+  <category term="development"/>
+  <category term="bugfix"/>
+  <category term="windows"/>
+  <category term="speed dial"/>
+  <category term="translations"/>
+  <category term="adblock"/>
+  <category term="plugins"/>
+  <category term="ppa"/>
+  <category term="qtwebengine"/>
+  <category term="stable"/>
+  <category term="1.3.5"/>
+  <category term="2.0.0"/>
+  <category term="bookmarks"/>
+  <category term="donations"/>
+  <category term="logo"/>
+  <category term="performance"/>
+  <category term="ubuntu"/>
+  <category term="1.1.0"/>
+  <category term="1.1.5"/>
+  <category term="1.1.8"/>
+  <category term="1.2.0"/>
+  <category term="1.3.0"/>
+  <category term="1.3.1"/>
+  <category term="1.4.0"/>
+  <category term="1.4.1"/>
+  <category term="1.4.2"/>
+  <category term="1.4.3"/>
+  <category term="1.4.4"/>
+  <category term="1.6.0"/>
+  <category term="1.6.1"/>
+  <category term="1.6.2"/>
+  <category term="1.6.3"/>
+  <category term="1.6.4"/>
+  <category term="1.6.5"/>
+  <category term="1.6.6"/>
+  <category term="1.8.0"/>
+  <category term="1.8.1"/>
+  <category term="1.8.2"/>
+  <category term="1.8.3"/>
+  <category term="1.8.4"/>
+  <category term="1.8.5"/>
+  <category term="1.8.6"/>
+  <category term="1.8.7"/>
+  <category term="1.8.8"/>
+  <category term="1.8.9"/>
+  <category term="2.0.1"/>
+  <category term="2.1.0"/>
+  <category term="address bar"/>
+  <category term="bitcoin"/>
+  <category term="cookies issue"/>
+  <category term="debian"/>
+  <category term="default browser"/>
+  <category term="directory listing"/>
+  <category term="domain"/>
+  <category term="file scheme"/>
+  <category term="fix"/>
+  <category term="ftp support"/>
+  <category term="greasemonkey"/>
+  <category term="history"/>
+  <category term="irc"/>
+  <category term="javascript"/>
+  <category term="mac"/>
+  <category term="mac os build"/>
+  <category term="mac os x"/>
+  <category term="old windows builds"/>
+  <category term="password manager"/>
+  <category term="popup windows"/>
+  <category term="qt5"/>
+  <category term="qtwebkit"/>
+  <category term="qupzilla bookmarks"/>
+  <category term="qupzilla password manager security"/>
+  <category term="qupzilla rc1 release"/>
+  <category term="qupzilla.com"/>
+  <category term="release 1.0.0 stable"/>
+  <category term="repository"/>
+  <category term="rtl"/>
+  <category term="session restore"/>
+  <category term="switch to tab"/>
+  <category term="tab previews"/>
+  <category term="tabbar"/>
+  <category term="tabs on top"/>
+  <category term="transifex"/>
+  <category term="userscripts"/>
+  <category term="video"/>
+  <category term="wiki"/>
+  <category term="windows 2000"/>
+  <category term="windows 2k"/>
+  <title type="text">QupZilla</title>
+  <subtitle type="html">Development updates on Qt web browser QupZilla</subtitle>
+  <link rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/posts/default"/>
+  <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default"/>
+  <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/"/>
+  <link rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+  <link rel="next" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default?start-index=26&amp;max-results=25"/>
+  <author>
+    <name>David Rosca</name>
+    <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+    <email>noreply@blogger.com</email>
+    <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+  </author>
+  <generator version="7.00" uri="http://www.blogger.com">Blogger</generator>
+  <openSearch:totalResults>67</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-9066230783805374990</id>
+    <published>2016-10-24T08:51:00.004-07:00</published>
+    <updated>2016-10-24T08:52:16.517-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="2.1.0"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 2.0.2 released!</title>
+    <content type="html">Second bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;update default user-agent strings&lt;/li&gt;&lt;li&gt;add short command line variant for all options&lt;/li&gt;&lt;li&gt;show navigation bar when adding new tab in fullscreen&lt;/li&gt;&lt;li&gt;supermenu button is no longer hidden in fullscreen&lt;/li&gt;&lt;li&gt;fix overwriting speed dial title when loading fails&lt;/li&gt;&lt;li&gt;fix positions of speed dials in rtl&lt;/li&gt;&lt;li&gt;fix context menu actions when site specifies base href&lt;/li&gt;&lt;li&gt;fix issue with tabbar sometimes being invisible when leaving fullscreen&lt;/li&gt;&lt;li&gt;Windows: fix background radient in browsing library &lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v2.0.2"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;This is the last bugfix release in 2.0 release cycle. Newer releases of QupZilla will now require at least Qt 5.7.&lt;br /&gt;&lt;br /&gt;The upcoming 2.1.0 version of QupZilla will, among other new features, bring back support for spellchecking.&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/9066230783805374990/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2016/10/qupzilla-202-released.html#comment-form" title="21 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/9066230783805374990"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/9066230783805374990"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2016/10/qupzilla-202-released.html" title="QupZilla 2.0.2 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>21</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-3999987785796827219</id>
+    <published>2016-06-08T11:48:00.002-07:00</published>
+    <updated>2016-06-08T11:48:41.844-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="2.0.1"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 2.0.1 released!</title>
+    <content type="html">First bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;don't force enabling HighDPI scaling by default&lt;/li&gt;&lt;li&gt;fix crash when unloading AutoScroll plugin&lt;/li&gt;&lt;li&gt;fix showing Inspect Element action when web inspector is disabled&lt;/li&gt;&lt;li&gt;fix showing context menu when page zoom is not 100%&lt;/li&gt;&lt;li&gt;fix destroying WebPage when opened as popup&lt;/li&gt;&lt;li&gt;fix setting default font families&lt;/li&gt;&lt;li&gt;fix saving last download path in download manager&lt;/li&gt;&lt;li&gt;fix using external download manager&lt;/li&gt;&lt;li&gt; fix cancelling http and proxy authentication dialogs &lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v2.0.1"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;For those updating from 1.8.x versions: It is advisable to start with new profile as updating profile from 1.8.x to 2.x version is not supported. You can create and remove profiles from preferences.&lt;br /&gt;&lt;br /&gt;Most Windows issues should be now fixed. There is still issue with using QupZilla in virtual machine with 3D acceleration enabled - websites are flashing or shows entirely in black (&lt;a href="https://bugreports.qt.io/browse/QTBUG-43110"&gt;QTBUG-43110&lt;/a&gt;). Workaround for this issue is to disable 3D acceleration for your virtual machine.&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/3999987785796827219/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2016/06/qupzilla-201-released.html#comment-form" title="24 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3999987785796827219"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3999987785796827219"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2016/06/qupzilla-201-released.html" title="QupZilla 2.0.1 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>24</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-2508097941284711192</id>
+    <published>2016-04-08T12:15:00.002-07:00</published>
+    <updated>2016-04-08T12:17:16.079-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="2.0.0"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="windows"/>
+    <title type="text">Windows builds of version 2.0 are now fixed</title>
+    <content type="html">With switch to QtWebEngine, there were unfortunately issues with packaging all required files for Windows. As a result, on some Windows system new version of QupZilla didn't work at all.&lt;br /&gt;&lt;br /&gt;It should be all fixed now, please re-download the installer (or portable) from homepage again. I apologize for any inconvenience this may have caused.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Note for Windows XP: &lt;/b&gt;You may see warning popup messages on startup, it can be fixed by removing &lt;i&gt;D3Dcompiler_47.dll &lt;/i&gt;in directory where you installed QupZilla.&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/2508097941284711192/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2016/04/windows-builds-of-version-20-are-now.html#comment-form" title="19 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/2508097941284711192"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/2508097941284711192"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2016/04/windows-builds-of-version-20-are-now.html" title="Windows builds of version 2.0 are now fixed"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>19</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-4166595725060016387</id>
+    <published>2016-03-30T08:04:00.000-07:00</published>
+    <updated>2016-04-08T12:18:04.758-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="2.0.0"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="qtwebengine"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 2.0.0 released with QtWebEngine!</title>
+    <content type="html">&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-WI8wANStIZ8/VkNc_3gCNuI/AAAAAAAAAdE/BhLXotAzT94/s1600/about.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="https://3.bp.blogspot.com/-WI8wANStIZ8/VkNc_3gCNuI/AAAAAAAAAdE/BhLXotAzT94/s1600/about.png" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;QupZilla 2.0.0 is now available. This is a new major version of QupZilla and also brings great changes. The biggest change is the switch of rendering engine, from old and unmaintained QtWebKit to shiny new &lt;a href="https://wiki.qt.io/QtWebEngine"&gt;QtWebEngine&lt;/a&gt;!&lt;br /&gt;&lt;br /&gt;QtWebEngine is using Chromium to render web pages which brings much better compatibility with web pages and also great stability (thanks to multi-process architecture).&lt;br /&gt;&lt;br /&gt;There are big changes (both architecture and API-wise) between QtWebKit and QtWebEngine, so porting of QupZilla took some time. There are also still features from QtWebKit not available in QtWebEngine, so some QupZilla features may not be available in new release. Those missing features will come back in next releases of QupZilla and QtWebEngine.&lt;br /&gt;&lt;br /&gt;QupZilla now depends on latest Qt release (Qt 5.6) to be able to use all QtWebEngine features.&lt;br /&gt;&lt;br /&gt;QupZilla is now available in repositories of all major distributions. From now on, I will stop providing Linux builds.  This also means that my Ubuntu PPA will not get any new releases. I will still provide Windows builds.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v2.0.0"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Update: &lt;/b&gt;I did not ditch support for Linux, quite the opposite. I just said in this post that I &lt;i&gt;myself&lt;/i&gt; will no longer provide Linux builds. You should install QupZilla from your distribution's repositories or build it yourself.&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/4166595725060016387/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2016/03/qupzilla-200-released-with-qtwebengine.html#comment-form" title="54 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4166595725060016387"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4166595725060016387"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2016/03/qupzilla-200-released-with-qtwebengine.html" title="QupZilla 2.0.0 released with QtWebEngine!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://3.bp.blogspot.com/-WI8wANStIZ8/VkNc_3gCNuI/AAAAAAAAAdE/BhLXotAzT94/s72-c/about.png" height="72" width="72"/>
+    <thr:total>54</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-8838529289447113481</id>
+    <published>2015-11-11T07:25:00.002-08:00</published>
+    <updated>2015-11-11T07:26:59.249-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.9"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="logo"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.9 released with new logo!</title>
+    <content type="html">&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-WI8wANStIZ8/VkNc_3gCNuI/AAAAAAAAAdE/BhLXotAzT94/s1600/about.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" src="http://3.bp.blogspot.com/-WI8wANStIZ8/VkNc_3gCNuI/AAAAAAAAAdE/BhLXotAzT94/s1600/about.png" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;Ninth bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;new QupZilla logo&lt;/li&gt;&lt;li&gt;add button to open spellcheck settings in preferences&lt;/li&gt;&lt;li&gt;remove gradient in toolbar of browsing library&lt;/li&gt;&lt;li&gt;fix showing authors page in about dialog&lt;/li&gt;&lt;li&gt;fix showing current tab in tabbar after restoring session&lt;/li&gt;&lt;li&gt;fix searching for invalid one-word url strings from locationbar&lt;/li&gt;&lt;li&gt;fix switch to tab from locationbar completer when it is the only tab in window&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.9"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;Highlight of this version is the new logo, made by Adrien Vigneron and Elio Qoshi.&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/8838529289447113481/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2015/11/qupzilla-189-released-with-new-logo.html#comment-form" title="8 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/8838529289447113481"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/8838529289447113481"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2015/11/qupzilla-189-released-with-new-logo.html" title="QupZilla 1.8.9 released with new logo!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://3.bp.blogspot.com/-WI8wANStIZ8/VkNc_3gCNuI/AAAAAAAAAdE/BhLXotAzT94/s72-c/about.png" height="72" width="72"/>
+    <thr:total>8</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-1363964001948207235</id>
+    <published>2015-10-21T08:45:00.000-07:00</published>
+    <updated>2015-10-21T11:30:05.624-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.8"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="qt5"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="windows"/>
+    <title type="text">QupZilla 1.8.8 released!</title>
+    <content type="html">Eightht bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;added interface for extensions to show action in Tools menu&lt;/li&gt;&lt;li&gt;add option to use TabManager as main tabbar replacement&lt;/li&gt;&lt;li&gt;fix build with Qt 5.5.1&lt;/li&gt;&lt;li&gt;fix crash when unloading plugin with visible sidebar&lt;/li&gt;&lt;li&gt;fix possible crash when accessing last active window&lt;/li&gt;&lt;li&gt;fix sometimes incorrectly loading background non-restored tab&lt;/li&gt;&lt;li&gt;fix showing speed dials in bookmarks icon&lt;/li&gt;&lt;li&gt;fix showing messages in statusbar in RTL mode&lt;/li&gt;&lt;li&gt;fix crash when application style is externally changed&lt;/li&gt;&lt;li&gt;fix labels color in access keys navigation with dark style&lt;/li&gt;&lt;li&gt;fix position of autoscroll indicator with site notification visible&lt;/li&gt;&lt;li&gt;Windows: fix setting as default browser&lt;/li&gt;&lt;li&gt;Windows: better toolbar background for Windows 10&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.8"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;Windows builds are now using&lt;b&gt;&lt;i&gt; &lt;/i&gt;Qt 5&lt;/b&gt; (5.5.1). It brings a lot of fixes for bugs and crashes and also support for HTML5 Audio/Video (only Windows Vista+).&lt;br /&gt;Because of different libraries, I recommend you to first uninstall old version of QupZilla and only then install this new version. You won't lose your profile data with uninstallation.&lt;br /&gt;&lt;br /&gt;Ubuntu packages (from &lt;span class="ppa-reference"&gt;ppa:nowrep/qupzilla)&lt;/span&gt; are now also using Qt 5.&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/1363964001948207235/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2015/10/qupzilla-188-released.html#comment-form" title="12 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/1363964001948207235"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/1363964001948207235"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2015/10/qupzilla-188-released.html" title="QupZilla 1.8.8 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>12</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-3943921679463905136</id>
+    <published>2015-10-08T04:46:00.001-07:00</published>
+    <updated>2015-10-08T04:46:52.139-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.7"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.7 released!</title>
+    <content type="html">Seventh bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;save pinned tabs per-window when set to restore session&lt;/li&gt;&lt;li&gt;Shift+Left click on links now opens link in new window&lt;/li&gt;&lt;li&gt;show web inspector action now toggles inspector&lt;/li&gt;&lt;li&gt;add button to create new userscript in GreaseMonkey&lt;/li&gt;&lt;li&gt;add "Anti-Adblock Killer" AdBlock subscription&lt;/li&gt;&lt;li&gt;add Ctrl+G and Ctrl+Shift+G shortcuts in search toolbar&lt;/li&gt;&lt;li&gt;fix enabling select all and find actions in menu&lt;/li&gt;&lt;li&gt;fix searching for strings with special whitespaces from locationbar&lt;/li&gt;&lt;li&gt;fix build with KF5 KWallet&lt;/li&gt;&lt;li&gt;fix crash when blocking popup window with AdBlock&lt;/li&gt;&lt;li&gt;fix icon animation when blocking popup window with AdBlock&lt;/li&gt;&lt;li&gt;fix build with Qt 5.5 and gcc 4.9&lt;/li&gt;&lt;li&gt;fix incorrectly accepting some cookies&lt;/li&gt;&lt;li&gt;fix creating new config directory&lt;/li&gt;&lt;li&gt;fix saving settings without changing pages in SpeedDial&lt;/li&gt;&lt;li&gt;fix center dials option in SpeedDial&lt;/li&gt;&lt;li&gt;fix not escaping characters for (file, ftp) dir listings&lt;/li&gt;&lt;li&gt;fix not showing restore page when opening new url from cli&lt;/li&gt;&lt;li&gt;fix adding search engine from form on page with Qt 5&lt;/li&gt;&lt;li&gt;fix saving homepage/new tab urls from preferences&lt;/li&gt;&lt;li&gt;Linux: use run-time detection of X11 platform&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.7"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/3943921679463905136/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2015/10/qupzilla-187-released.html#comment-form" title="6 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3943921679463905136"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3943921679463905136"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2015/10/qupzilla-187-released.html" title="QupZilla 1.8.7 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>6</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-3090108113963148889</id>
+    <published>2015-08-16T07:12:00.001-07:00</published>
+    <updated>2015-09-11T11:30:25.972-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="development"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="logo"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="qtwebengine"/>
+    <title type="text">New QupZilla logo</title>
+    <content type="html">After a quite long time of silence, I have a news about QupZilla.&lt;br /&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;b&gt;New logo&lt;/b&gt;&lt;br /&gt;&lt;i&gt;Adrien Vigneron&lt;/i&gt; volunteered to create a new logo for QupZilla and already sent me couple of ideas. I believe the current logo is not great enough, so I every help is greatly appreciated.&lt;br /&gt;&lt;br /&gt;I'd like to share the drafts with all of you, so you can make comments or even improve it!&lt;br /&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-JkmwKKWzE0Q/VdCXw9u8NHI/AAAAAAAAAbQ/Okwy398xKgY/s1600/orangezilla.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="http://1.bp.blogspot.com/-JkmwKKWzE0Q/VdCXw9u8NHI/AAAAAAAAAbQ/Okwy398xKgY/s1600/orangezilla.png" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://2.bp.blogspot.com/-uxdxaNXIjGU/VdCXxr3uS-I/AAAAAAAAAbY/2itX8f2O4Mc/s1600/Qupzilla-octo-drop.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="http://2.bp.blogspot.com/-uxdxaNXIjGU/VdCXxr3uS-I/AAAAAAAAAbY/2itX8f2O4Mc/s1600/Qupzilla-octo-drop.png" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;/div&gt;&lt;i&gt;&lt;br /&gt;&lt;/i&gt;&lt;i&gt;New idea: &lt;/i&gt;&lt;br /&gt;&lt;div class="separator" style="clear: both; text-align: center;"&gt;&lt;a href="http://4.bp.blogspot.com/-YeZApZB4lqw/VfMc7ltU7PI/AAAAAAAAAcI/_7ZeRZ6RC5o/s1600/qupzilla_sail_the_world.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="200" src="http://4.bp.blogspot.com/-YeZApZB4lqw/VfMc7ltU7PI/AAAAAAAAAcI/_7ZeRZ6RC5o/s1600/qupzilla_sail_the_world.png" width="200" /&gt;&lt;/a&gt;&lt;/div&gt;&lt;br /&gt;These are the drafts I like the most. For other ideas, please see Adrien's &lt;a href="http://kalunozor.ch/blog/?d=2015/07/23/19/39/32-qupzilla-logo"&gt;blog&lt;/a&gt;.&lt;br /&gt;Also please click on the logo to view it in original size, the logos are incorrectly scaled down. &lt;br /&gt;&lt;br /&gt;&lt;b&gt;Development status&lt;/b&gt;&lt;br /&gt;There haven't been much activity lately. This is mainly due to web engine state in latest Qt release. QtWebKit (which uses QupZilla 1.x) is now deprecated and QtWebEngine is not yet enough API-rich to be used for full featured web browser.&lt;br /&gt;There is also a huge problem with some distributions not packaging QtWebEngine at all.&lt;br /&gt;&lt;br /&gt;I hope it will all be fixed in future Qt releases and I will be able to release QupZilla 2.0 soon.&lt;br /&gt;That being said, I am planning to release at least one more 1.8 bugfix version (1.8.7) in next month. I'd like to use the new logo for this release!&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/3090108113963148889/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2015/08/new-qupzilla-logo.html#comment-form" title="41 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3090108113963148889"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3090108113963148889"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2015/08/new-qupzilla-logo.html" title="New QupZilla logo"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://1.bp.blogspot.com/-JkmwKKWzE0Q/VdCXw9u8NHI/AAAAAAAAAbQ/Okwy398xKgY/s72-c/orangezilla.png" height="72" width="72"/>
+    <thr:total>41</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-389776577262754941</id>
+    <published>2015-01-26T06:49:00.001-08:00</published>
+    <updated>2015-01-26T06:49:49.271-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.6"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.6 released!</title>
+    <content type="html">Sixth bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;added TabManager and FlashCookieManager plugins&lt;/li&gt;&lt;li&gt;added CTRL+L shortcut to clear download list in download manager&lt;/li&gt;&lt;li&gt;allow closing Download Manager and Browsing Library with Ctrl+W&lt;/li&gt;&lt;li&gt;revert option to disable SSLv3, it is now correctly handled by Qt&lt;/li&gt;&lt;li&gt;fix issue with tabs with empty url were removed from session&lt;/li&gt;&lt;li&gt;fix zoom shortcuts with +/-/0 on numeric block&lt;/li&gt;&lt;li&gt;fix hiding iframes that have completely blocked contents in AdBlock&lt;/li&gt;&lt;li&gt;fix showing navigation bar when typing into locationbar in fullscreen&lt;/li&gt;&lt;li&gt;fix visual issues with FTP listing with RTL layouts&lt;/li&gt;&lt;li&gt;fix removing profiles from preferences&lt;/li&gt;&lt;li&gt;fix crash when moving bookmarks on FreeBSD&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.6"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/389776577262754941/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2015/01/qupzilla-186-released.html#comment-form" title="53 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/389776577262754941"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/389776577262754941"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2015/01/qupzilla-186-released.html" title="QupZilla 1.8.6 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>53</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-2637222581053719901</id>
+    <published>2014-12-14T00:40:00.001-08:00</published>
+    <updated>2014-12-14T00:40:28.254-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="plugins"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="wiki"/>
+    <title type="text">QupZilla's extension-wiki is ready</title>
+    <content type="html">To give QupZilla users an overview about all extensions available for use, an additional wiki has been aroused. You will find detailed information about how to configure and to use the extensions. Many screenshots will visualise options and look &amp;amp; feel.&lt;br /&gt;&lt;br /&gt;So, continue reading here: &lt;a href="https://github.com/QupZilla/qupzilla-plugins/wiki"&gt;qupzilla-plugins/wiki&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;i&gt;This blog post and the wiki was written by Jonathan Hooverman. Thanks a lot for his great work!&lt;/i&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/2637222581053719901/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/12/qupzillas-extension-wiki-is-ready.html#comment-form" title="3 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/2637222581053719901"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/2637222581053719901"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/12/qupzillas-extension-wiki-is-ready.html" title="QupZilla's extension-wiki is ready"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>3</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-570343837144137557</id>
+    <published>2014-12-12T23:58:00.001-08:00</published>
+    <updated>2014-12-12T23:58:11.577-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.5"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.5 released!</title>
+    <content type="html">Fifth bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;save geometry of Preferences window&lt;/li&gt;&lt;li&gt;enable HighDPI pixmaps with Qt 5&lt;/li&gt;&lt;li&gt;add option to completely disable SSLv3&lt;/li&gt;&lt;li&gt;fix url for China AdBlock list&lt;/li&gt;&lt;li&gt;fix issue with opening modal dialogs being hidden by active window&lt;/li&gt;&lt;li&gt;fix loading dictionaries in spellcheck&lt;/li&gt;&lt;li&gt;fix behavior of delete key in locationbar&lt;/li&gt;&lt;li&gt;MouseGestures: add new gesture for duplication of current tab&lt;/li&gt;&lt;li&gt;Linux: fix go-icon not available in themes other than oxygen &lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.5"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/570343837144137557/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/12/qupzilla-185-released.html#comment-form" title="5 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/570343837144137557"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/570343837144137557"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/12/qupzilla-185-released.html" title="QupZilla 1.8.5 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>5</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-3812912908207601397</id>
+    <published>2014-11-03T14:23:00.001-08:00</published>
+    <updated>2014-11-03T14:23:52.755-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.4"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.4 released!</title>
+    <content type="html">Fourth bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;added possibility to build against system QtFtp module&lt;/li&gt;&lt;li&gt;CSS exceptions in AdBlock now works for rules from different subscrictions&lt;/li&gt;&lt;li&gt;fixed: correctly saving some settings in preferences&lt;/li&gt;&lt;li&gt;fixed: preference action on Mac&lt;/li&gt;&lt;li&gt;fixed: loading plugins on Windows&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.4"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/3812912908207601397/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/11/qupzilla-184-released.html#comment-form" title="25 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3812912908207601397"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3812912908207601397"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/11/qupzilla-184-released.html" title="QupZilla 1.8.4 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>25</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-4088711161726841321</id>
+    <published>2014-10-19T11:54:00.003-07:00</published>
+    <updated>2014-10-19T11:54:47.562-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.3"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.3 released!</title>
+    <content type="html">Third bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;fixed: crash when passing messages to running instance&lt;/li&gt;&lt;li&gt;fixed: keyboard text navigation in some custom html code editors&lt;/li&gt;&lt;li&gt;fixed: string for filter third party cookies + changed default to allow&lt;/li&gt;&lt;li&gt;fixed: coloring CSS exception rules in AdBlock subscription tree&lt;/li&gt;&lt;li&gt;fixed: auto-loading saved plugins on startup in portable mode&lt;/li&gt;&lt;li&gt;fixed: text edit shortcuts not working with non-latin keyboard layout&lt;/li&gt;&lt;li&gt;fixed: building on Linux with Qt 4.7&lt;/li&gt;&lt;li&gt;fixed: crash when unloading AutoScroll plugin on Windows&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.3"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/4088711161726841321/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/10/qupzilla-183-released.html#comment-form" title="52 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4088711161726841321"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4088711161726841321"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/10/qupzilla-183-released.html" title="QupZilla 1.8.3 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>52</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-6953520950499342847</id>
+    <published>2014-10-12T06:36:00.002-07:00</published>
+    <updated>2014-10-13T08:22:43.772-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="cookies issue"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="mac os build"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="old windows builds"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="windows 2000"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="windows 2k"/>
+    <title type="text">Cookies issue + Build for Mac OS X available!</title>
+    <content type="html">&lt;b&gt;Cookies issue in 1.8.x&lt;/b&gt;&lt;br /&gt;In 1.8.0 version, new option for &lt;i&gt;Filter 3rd party cookies&lt;/i&gt; feature were added and the yes/no checkbox had to be changed to 3-option combobox.&lt;br /&gt;The new options are now Always, Never and Keep existing with meaning Always block third party cookies, Never block third party cookies and Keep cookies from third parties already in cookie jar.&lt;br /&gt;However, the title was not changed from Filter 3rd party cookies to Allow 3rd party cookies. Moreover, Never option was made default.&lt;br /&gt;As a result, with 3rd party cookies being always blocked, some sites stopped working. It includes commenting on blogger (QupZilla blog) or on YouTube videos.&lt;br /&gt;&lt;br /&gt;Until the 1.8.3 is released, you can fix this issue by setting the &lt;i&gt;Filter 3rd party cookies&lt;/i&gt; to &lt;u&gt;Always.&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Mac OS X build&lt;/b&gt;&lt;br /&gt;Latest 1.8.2 build is now available for Mac OS X! It can be downloaded from homepage as usual.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Older Windows builds&lt;/b&gt;&lt;br /&gt;For some reason, the latest 1.8 version is not working on Windows 2000. I am not really sure why it doesn't, I have used exactly the same libraries as for building 1.6 version.&lt;br /&gt;Some users asked for links for 1.6 Window builds, so here it is:&lt;br /&gt;&lt;br /&gt;&lt;a href="http://qupzilla.com/uploads/qupzilla166.exe"&gt;QupZilla 1.6.6 Windows installer&lt;/a&gt;&lt;br /&gt;&lt;a href="http://qupzilla.com/uploads/qupzilla166_portable.zip"&gt;QupZilla 1.6.6 Portable&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/6953520950499342847/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/10/cookies-issue-build-for-mac-os-x.html#comment-form" title="5 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/6953520950499342847"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/6953520950499342847"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/10/cookies-issue-build-for-mac-os-x.html" title="Cookies issue + Build for Mac OS X available!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>5</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-8734323033785930139</id>
+    <published>2014-10-09T02:14:00.001-07:00</published>
+    <updated>2014-10-09T02:14:14.766-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.2"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.2 released!</title>
+    <content type="html">Second bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;updated translations&lt;/li&gt;&lt;li&gt;use bigger default font sizes&lt;/li&gt;&lt;li&gt;fixed: profile version check when updating from 1.8.0&lt;/li&gt;&lt;li&gt;fixed: crash on startup on Mac&lt;/li&gt;&lt;li&gt;fixed: crash when opening menu on Mac when there is no browser window&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.2"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/8734323033785930139/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/10/qupzilla-182-released.html#comment-form" title="37 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/8734323033785930139"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/8734323033785930139"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/10/qupzilla-182-released.html" title="QupZilla 1.8.2 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>37</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-2748379361855424384</id>
+    <published>2014-10-05T07:49:00.001-07:00</published>
+    <updated>2014-10-09T02:13:08.721-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.1"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.1 released!</title>
+    <content type="html">First bugfix version is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;reverted setting DNT header by default&lt;/li&gt;&lt;li&gt;fixed: autofill not working for some frames&lt;/li&gt;&lt;li&gt;fixed: saving speed dial in case of crash&lt;/li&gt;&lt;li&gt;fixed: open file in download option on windows&lt;/li&gt;&lt;li&gt;fixed: Internet Explorer bookmarks importer&lt;/li&gt;&lt;li&gt;fixed: building on Mac&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.1"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/2748379361855424384/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/10/version-181.html#comment-form" title="7 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/2748379361855424384"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/2748379361855424384"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/10/version-181.html" title="QupZilla 1.8.1 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>7</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-1911653852579870733</id>
+    <published>2014-09-26T07:43:00.000-07:00</published>
+    <updated>2014-09-26T07:43:41.019-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.8.0"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.8.0 released!</title>
+    <content type="html">After a long wait, the new version was finally released!&lt;br /&gt;&lt;ul&gt;&lt;li&gt;added support for window.beforeunload event&lt;/li&gt;&lt;li&gt;added support for external.AddSearchProvider js function&lt;/li&gt;&lt;li&gt;added undo/redo actions to context menu in forms&lt;/li&gt;&lt;li&gt;added new theme Breathe&lt;/li&gt;&lt;li&gt;added new commandline option to toggle fullscreen&lt;/li&gt;&lt;li&gt;added new commandline option to enable portable mode&lt;/li&gt;&lt;li&gt;added new context menu action to open links in private window&lt;/li&gt;&lt;li&gt;added new smooth and fully transparent loading animation&lt;/li&gt;&lt;li&gt;added option to disable weak ciphers in SSL Manager&lt;/li&gt;&lt;li&gt;added support for shadow builds with Qt Creator&lt;/li&gt;&lt;li&gt;completely rewritten bookmarks (including multi-level folders support)&lt;/li&gt;&lt;li&gt;location bar completer is now running in separate thread&lt;/li&gt;&lt;li&gt;menus are not closed when opening links with middle mouse button&lt;/li&gt;&lt;li&gt;ctrl+w shortcut no longer closes pinned tab&lt;/li&gt;&lt;li&gt;pinned tabs are now restored everytime, not only when restoring session&lt;/li&gt;&lt;li&gt;enable sending DoNotTrack header by default&lt;/li&gt;&lt;li&gt;full support for search engines that use POST method&lt;/li&gt;&lt;li&gt;Oxygen icon theme is now default fallback icon theme&lt;/li&gt;&lt;li&gt;Qt translations are now loaded from system directories where available&lt;/li&gt;&lt;li&gt;correctly load one-word hosts (eg. localhost or anything other in /etc/hosts)&lt;/li&gt;&lt;li&gt;search engines manager can now be opened from preferences&lt;/li&gt;&lt;li&gt;various tweaks in SpeedDial theme including lower minimal size for dials&lt;/li&gt;&lt;li&gt;various tweaks in Linux theme including support for big fonts in location bar&lt;/li&gt;&lt;li&gt;various fixes for Qt5 including bugs in tab bar&lt;/li&gt;&lt;li&gt;various fixes for RTL languages including rendering of location bar completer&lt;/li&gt;&lt;li&gt;AdBlock: support for exception css rules&lt;/li&gt;&lt;li&gt;AdBlock: improved performance of loading rules&lt;/li&gt;&lt;li&gt;MouseGestures: option to set mouse button for gestures&lt;/li&gt;&lt;li&gt;MouseGestures: support for rocker navigation to go back/forward in history&lt;/li&gt;&lt;li&gt;GreaseMonkey: correctly load scripts in frames&lt;/li&gt;&lt;li&gt;GreaseMonkey: fix rare issue that userscripts won't load on some sites&lt;/li&gt;&lt;li&gt;KWalletPasswords: support for KF5 KWallet&lt;/li&gt;&lt;li&gt;windows: load font.ttf (from current dir, if exists) and set it as default app font&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.8.0"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/1911653852579870733/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/09/qupzilla-180-released.html#comment-form" title="37 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/1911653852579870733"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/1911653852579870733"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/09/qupzilla-180-released.html" title="QupZilla 1.8.0 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>37</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-1901502324755614376</id>
+    <published>2014-05-12T06:27:00.001-07:00</published>
+    <updated>2014-05-12T06:27:56.047-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.6.6"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.6.6 released!</title>
+    <content type="html">Latest bugfix release 1.6.6 is now available.&lt;br /&gt;&lt;ul&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;added new AutoScroll plugin&lt;/li&gt;&lt;li&gt;added new F12 shortcut for Web Inspector&lt;/li&gt;&lt;li&gt;fixed: correctly switching between tabbars when closing tabs&lt;/li&gt;&lt;li&gt;fixed: draw tabbar base even when there are no tabs in main tabbar&lt;/li&gt;&lt;li&gt;fixed: position of add tab button when there are no tabs in main tabbar&lt;/li&gt;&lt;li&gt;mac: define application category in Info.plist&lt;/li&gt;&lt;li&gt;windows: load font.ttf (if exists) and use it as app font&lt;/li&gt;&lt;li&gt;linux: fixed setting correct paths for portable mode&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.6.6"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/1901502324755614376/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/05/qupzilla-166-released.html#comment-form" title="44 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/1901502324755614376"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/1901502324755614376"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/05/qupzilla-166-released.html" title="QupZilla 1.6.6 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>44</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-525985858709133009</id>
+    <published>2014-04-18T07:49:00.002-07:00</published>
+    <updated>2014-04-18T07:51:00.013-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.6.5"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.6.5 released!</title>
+    <content type="html">Quick bugfix release is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;fixed build issues on Mac&lt;/li&gt;&lt;li&gt;fixed error handling when downloading CA certificates bundle&lt;/li&gt;&lt;li&gt;fixed error handling when downloading AdBlock subscriptions&lt;/li&gt;&lt;li&gt;fixed loading KWalletPasswords plugin&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;Source tarballs are now compressed using xz.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/tag/v1.6.5"&gt;source code&lt;/a&gt;&amp;nbsp;(at github.com)&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/525985858709133009/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/04/qupzilla-165-released.html#comment-form" title="23 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/525985858709133009"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/525985858709133009"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/04/qupzilla-165-released.html" title="QupZilla 1.6.5 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>23</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-3098157937399258475</id>
+    <published>2014-04-14T04:08:00.004-07:00</published>
+    <updated>2014-04-14T04:09:21.037-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.6.4"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="stable"/>
+    <title type="text">QupZilla 1.6.4 released!</title>
+    <content type="html">Fourth bugfix release is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;enabled sending DoNotTrack header by default&lt;/li&gt;&lt;li&gt;updated ca-bundle certificates&lt;/li&gt;&lt;li&gt;use same session files with both Qt4 and Qt5&lt;/li&gt;&lt;li&gt;fixed: Click2Flash playing videos on YouTube with Qt5&lt;/li&gt;&lt;li&gt;fixed: hiding close button on current tab when dragging it with Qt5&lt;/li&gt;&lt;li&gt;fixed: double clicking on scroll buttons in tabbar with Qt5&lt;/li&gt;&lt;li&gt;fixed: text visibility in speeddial inputs with dark themes&lt;/li&gt;&lt;li&gt;fixed: getting tab index with rtl layout&lt;/li&gt;&lt;li&gt;fixed: ctrl+up shortcut in websearchbar correctly select first item&lt;/li&gt;&lt;li&gt;fixed: correctly loading translations of all plugins&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;Windows builds are now using OpenSSL 1.0.1g with fix for Heartbleed Bug.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/download/v1.6.4/QupZilla-1.6.4.tar.gz"&gt;source code&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/3098157937399258475/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/04/qupzilla-164-released.html#comment-form" title="14 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3098157937399258475"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3098157937399258475"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/04/qupzilla-164-released.html" title="QupZilla 1.6.4 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>14</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-4710293727880913163</id>
+    <published>2014-03-30T03:55:00.000-07:00</published>
+    <updated>2014-04-18T07:52:10.850-07:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bookmarks"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="development"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="qtwebengine"/>
+    <title type="text">New bookmarks and other improvements</title>
+    <content type="html">It's been a while since I blogged about a new features that landed in git, but it doesn't mean there aren't any. I've just been too lazy to write...&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Bookmarks&lt;/b&gt;&lt;br /&gt;Bookmarks have been completely rewritten. It now finally supports nested folders, the feature that's been missing for a long time. Internally, it stores bookmarks in JSON file with very similar structure as the Chrome's bookmarks (it is actually possible to simply copy Chrome's file into QupZilla profile and it will just work).&lt;br /&gt;There is now also support for separators. Bookmarks import now also supports importing full bookmarks structure (including nested folders), the same applies for export to Html.&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-qvt9uQzFWaM/Uzff5fSNIpI/AAAAAAAAAME/yhlfzPY_o2k/s1600/bookmarks.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" src="http://1.bp.blogspot.com/-qvt9uQzFWaM/Uzff5fSNIpI/AAAAAAAAAME/yhlfzPY_o2k/s1600/bookmarks.png" height="235" width="320" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;New bookmarks (Toolbar and Oganizer)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;b&gt;LocationBar&lt;/b&gt;&lt;br /&gt;LocationBar received major code cleanup. It no longer uses various hacks to draw host part of url with different color. More importantly, the completer now runs in separate thread. If you have a long history, searching in LocationBar will no longer slow you down.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Zoom Widget and Closed Tabs button&lt;/b&gt;&lt;br /&gt;StatusBarIcons plugin now offers Zoom widget in Status Bar, well-known feature from Opera browser. Just a note, you can disable all icons except Zoom widget if you don't like other icons StatusBarIcons plugin offers.&lt;br /&gt;There is now also separate button for closed tabs in tabbar (in the right corner). There used to be option to show closed tabs instead of list of tabs in tabbar corner button. They are now two separate buttons.&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://2.bp.blogspot.com/-Bu6nwpiXnKw/UzfjX4lRRNI/AAAAAAAAAMQ/pH-d2FcndPA/s1600/zoomwidget.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" src="http://2.bp.blogspot.com/-Bu6nwpiXnKw/UzfjX4lRRNI/AAAAAAAAAMQ/pH-d2FcndPA/s1600/zoomwidget.png" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;Zoom widget in Status Bar&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;b&gt;New Breathe theme&lt;/b&gt;&lt;br /&gt;Not yet in main git repository, but soon will be. The new theme (all screenshots in this post are made with Breathe theme) made by&amp;nbsp;&lt;a href="https://github.com/pejakm"&gt;Mladen&lt;/a&gt;&amp;nbsp;slightly modifies the Linux default theme. It looks really great, especially in Qt 5!&lt;br /&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;b&gt;QtWebEngine&lt;/b&gt;&lt;br /&gt;&lt;a href="http://qt-project.org/wiki/QtWebEngine"&gt;QtWebEngine&lt;/a&gt; is a new Web Engine in Qt (using Chromium with Blink). It is not yet in Alpha stage, however it is already possible to build and run QupZilla with it. Given the fact that Chromium uses multi-process architecture, a lot of API is now asynchronous (instead of synchronous as in QtWebKit). It means that a lot of advanced features in QupZilla will need to adapt to this change. For now, those features are simply disabled.&lt;br /&gt;You can try QupZilla with QtWebEngine using&amp;nbsp;&lt;a href="https://github.com/QupZilla/qupzilla/tree/qtwebengine"&gt;qtwebengine&lt;/a&gt;&amp;nbsp;branch. It has some issues, but it works. In fact, I wrote this entire post with QupZilla-QtWebEngine.&lt;br /&gt;And for all of you who don't like multi-process architecture, there is a &lt;i&gt;--single-process&lt;/i&gt;&amp;nbsp;switch ;-)&lt;br /&gt;&lt;br /&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://3.bp.blogspot.com/-2EV4PazPlLM/UzfnYoUKtdI/AAAAAAAAAMg/ZhvdVx8QVS4/s1600/qtwebengine.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" src="http://3.bp.blogspot.com/-2EV4PazPlLM/UzfnYoUKtdI/AAAAAAAAAMg/ZhvdVx8QVS4/s1600/qtwebengine.png" height="204" width="320" /&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;QupZilla running on QtWebEngine&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;b&gt;Next release&lt;/b&gt;&lt;br /&gt;Next release will be 1.8.0. All version with 1 as a major version number will be using QtWebKit as its web engine.&lt;br /&gt;New major version 2.0.0 will be using QtWebEngine only. But that will still take some time (maybe with Qt 5.4).&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/4710293727880913163/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/03/new-bookmarks-and-other-improvements.html#comment-form" title="14 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4710293727880913163"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4710293727880913163"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/03/new-bookmarks-and-other-improvements.html" title="New bookmarks and other improvements"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://1.bp.blogspot.com/-qvt9uQzFWaM/Uzff5fSNIpI/AAAAAAAAAME/yhlfzPY_o2k/s72-c/bookmarks.png" height="72" width="72"/>
+    <thr:total>14</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-7746505848139971606</id>
+    <published>2014-02-14T06:00:00.005-08:00</published>
+    <updated>2014-02-14T06:00:58.372-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.6.3"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <title type="text">QupZilla 1.6.3 released!</title>
+    <content type="html">Third quick bugfix release is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;workaround for servers not understanding TLSv1 handshake&lt;/li&gt;&lt;li&gt;addded new Spanish (Mexico) translation&lt;/li&gt;&lt;li&gt;option to change list of SslV3 forced sites in settings.ini&lt;/li&gt;&lt;li&gt;show error message when downloading AdBlock subscriptions fails&lt;/li&gt;&lt;li&gt;fixed building on FreeBSD, OS/2&lt;/li&gt;&lt;/ul&gt;&lt;br /&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/download/v1.6.3/QupZilla-1.6.3.tar.gz"&gt;source code&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/7746505848139971606/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/02/qupzilla-163-released.html#comment-form" title="25 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/7746505848139971606"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/7746505848139971606"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/02/qupzilla-163-released.html" title="QupZilla 1.6.3 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>25</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-4726417456964208573</id>
+    <published>2014-02-13T11:07:00.004-08:00</published>
+    <updated>2014-02-13T11:07:51.476-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.6.2"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.6.2 released!</title>
+    <content type="html">Second bugfix release is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;workaround for servers not understanding TLSv1 handshake&lt;/li&gt;&lt;li&gt;tabs on top are now enabled by default&lt;/li&gt;&lt;li&gt;restore session after launch is now enabled by default&lt;/li&gt;&lt;li&gt;don't load tabs until selected is now enabled by default&lt;/li&gt;&lt;li&gt;tab previews are now disabled by default&lt;/li&gt;&lt;li&gt;reworked scrolling with wheel in tabbar&lt;/li&gt;&lt;li&gt;Ctrl+W shortcut no longer closes a pinned tab&lt;/li&gt;&lt;li&gt;fixed: setting DuckDuckGo as default search provider&lt;/li&gt;&lt;li&gt;fixed: issues detected by scan.coverity.com&lt;/li&gt;&lt;li&gt;fixed: showing more default search engines with same name&lt;/li&gt;&lt;li&gt;fixed: incorrect exception rules handling in AdBlock&lt;/li&gt;&lt;li&gt;fixed: flickering when removing tabs from tabbar&lt;/li&gt;&lt;li&gt;fixed: flickering when (un)pinning tabs&lt;/li&gt;&lt;li&gt;fixed: flickering when opening new tabs with sites that loads instantly&lt;/li&gt;&lt;li&gt;fixed: drawing correct mouseouver state for tabs&lt;/li&gt;&lt;li&gt;fixed: drawing tabbar correctly with Oxygen style&lt;/li&gt;&lt;li&gt;fixed: drawing list items with Qt5 Fusion style&lt;/li&gt;&lt;li&gt;fixed: tooltips disappearing on (un)pinning tabs&lt;/li&gt;&lt;li&gt;fixed: incorrectly changing current index when closing tabs in inactive tabbar&lt;/li&gt;&lt;li&gt;fixed: incorrectly showing url in locationbar when load request was not accepted&lt;/li&gt;&lt;li&gt;fixed: always add slash '/' between path and filename when downloading files&lt;/li&gt;&lt;li&gt;fixed: cursor jumping at the start in locationbar&lt;/li&gt;&lt;li&gt;mac: fixed toggle fullscreen action in menu&lt;/li&gt;&lt;li&gt;windows: save application data in %LOCALAPPDATA%&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/download/v1.6.2/QupZilla-1.6.2.tar.gz"&gt;source code&lt;/a&gt;&lt;br /&gt;&lt;div&gt;&lt;br /&gt;&lt;/div&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/4726417456964208573/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/02/qupzilla-162-released.html#comment-form" title="2 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4726417456964208573"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/4726417456964208573"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/02/qupzilla-162-released.html" title="QupZilla 1.6.2 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>2</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-3689830717640851099</id>
+    <published>2014-02-05T04:54:00.003-08:00</published>
+    <updated>2014-02-05T04:58:35.618-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bitcoin"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="donations"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="mac"/>
+    <title type="text">QupZilla 1.6.1 now available for Mac OS X</title>
+    <content type="html">&lt;b&gt;QupZilla for Mac OS X&lt;/b&gt;&lt;br /&gt;Latest stable version is now available for Mac OS X users. Thanks to Filip Staněk for his help with building! With his help, all following releases will be built for Mac OS X in time.&lt;br /&gt;&lt;br /&gt;You can download the latest &lt;b&gt;QupZilla-1.6.1.dmg&lt;/b&gt; &lt;a href="http://ubuntuone.com/7dpaT0xylFK81cgh1DMciY"&gt;here&lt;/a&gt;&amp;nbsp;(built with latest Qt 5.2).&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Note for Windows builds&lt;/b&gt;&lt;br /&gt;The latest Windows builds are built with Qt 4.8.5 to ensure compatibility with Windows 2000. It still contains QtWebKit 2.3, so there is no downside from Qt 4.8.6 (it was unreleased git version) that was used in initial builds.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Donations in BitCoin&lt;/b&gt;&lt;br /&gt;It is now also possible to donate on &lt;a href="http://www.qupzilla.com/contribute"&gt;homepage&lt;/a&gt; in BitCoins.&lt;br /&gt;I'd like to also thank to all of you who already donated! Your help is highly appreciated!&lt;br /&gt;&lt;br /&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/3689830717640851099/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/02/qupzilla-161-now-available-for-mac-os-x.html#comment-form" title="4 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3689830717640851099"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/3689830717640851099"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/02/qupzilla-161-now-available-for-mac-os-x.html" title="QupZilla 1.6.1 now available for Mac OS X"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>4</thr:total>
+  </entry>
+  <entry>
+    <id>tag:blogger.com,1999:blog-6366019251720461577.post-9154672855663483336</id>
+    <published>2014-01-26T11:04:00.002-08:00</published>
+    <updated>2014-01-28T02:24:19.340-08:00</updated>
+    <category scheme="http://www.blogger.com/atom/ns#" term="1.6.1"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="bugfix"/>
+    <category scheme="http://www.blogger.com/atom/ns#" term="release"/>
+    <title type="text">QupZilla 1.6.1 released!</title>
+    <content type="html">First bugfix release is now available.&lt;br /&gt;&lt;ul&gt;&lt;li&gt;added option to disable inline completion in locationbar&lt;/li&gt;&lt;li&gt;added option to always switch tabs with mouse wheel&lt;/li&gt;&lt;li&gt;added option to toggle fullscreen with commandline option&lt;/li&gt;&lt;li&gt;added undo/redo context menu actions in editable web elements&lt;/li&gt;&lt;li&gt;speedup loading rules from subscriptions in AdBlock dialog&lt;/li&gt;&lt;li&gt;fixed speed dial with disabled javascript&lt;/li&gt;&lt;li&gt;fixed showing tooltips on tabs when tab previews are disabled&lt;/li&gt;&lt;li&gt;fixed search shortcuts longer than one character in locationbar&lt;/li&gt;&lt;li&gt;fixed building issues on OS X and OS/2&lt;/li&gt;&lt;li&gt;fixed disabling tab previews from preferences&lt;/li&gt;&lt;li&gt;fixed building new Gnome/KDE keyring passwords&lt;/li&gt;&lt;li&gt;fixed building StatusBarIcons plugin on Windows&lt;/li&gt;&lt;li&gt;win: add new jumplist option to open private window&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;&lt;br /&gt;&lt;/b&gt;&lt;b&gt;Download:&amp;nbsp;&lt;/b&gt;&lt;a href="https://github.com/QupZilla/qupzilla/releases/download/v1.6.1/QupZilla-1.6.1.tar.gz"&gt;source code&lt;/a&gt;&lt;br /&gt;&lt;div&gt;All builds are now available.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;About QtWebEngine and QupZilla&lt;/b&gt;&lt;/div&gt;&lt;div&gt;QupZilla will in future be ported to &lt;a href="http://qt-project.org/wiki/QtWebEngine"&gt;QtWebEngine&lt;/a&gt;, which will (amongst other improvements) bring multi-process architecture.&amp;nbsp;&lt;/div&gt;&lt;div&gt;With QtWebEngine comes dependency on Qt 5, which means older platforms may not be supported.&lt;/div&gt;&lt;div&gt;QupZilla on QtWebEngine will be new major version 2.x.x and I hope it will be ready with Qt 5.3 (or Qt 5.4), depending on Qt devs.&lt;br /&gt;&lt;br /&gt;&lt;/div&gt;</content>
+    <link rel="replies" type="application/atom+xml" href="http://blog.qupzilla.com/feeds/9154672855663483336/comments/default" title="Post Comments"/>
+    <link rel="replies" type="text/html" href="http://blog.qupzilla.com/2014/01/qupzilla-161-released.html#comment-form" title="32 Comments"/>
+    <link rel="edit" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/9154672855663483336"/>
+    <link rel="self" type="application/atom+xml" href="http://www.blogger.com/feeds/6366019251720461577/posts/default/9154672855663483336"/>
+    <link rel="alternate" type="text/html" href="http://blog.qupzilla.com/2014/01/qupzilla-161-released.html" title="QupZilla 1.6.1 released!"/>
+    <author>
+      <name>David Rosca</name>
+      <uri>http://www.blogger.com/profile/00375822482944891581</uri>
+      <email>noreply@blogger.com</email>
+      <gd:image rel="http://schemas.google.com/g/2005#thumbnail" width="32" height="32" src="https://3.bp.blogspot.com/-Ju0JyFXcKuQ/VVb3O0k3aAI/AAAAAAAAAZA/O2XliBhuXJQ/s113/island-crop2.JPG"/>
+    </author>
+    <thr:total>32</thr:total>
+  </entry>
+</feed>

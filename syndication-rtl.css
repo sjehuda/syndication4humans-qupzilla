@@ -1,0 +1,25 @@
+/*
+ * Copyright (C) 2016 - 2017 Schimon Jehuda. Released under MIT license
+ * Feeds rendered using this XSLT stylesheet, or it's derivatives, must
+ * include https://sjehuda.github.io/ in attribute name='generator' of
+ * element <meta/> inside of html element </head>
+ */
+
+#feed {
+  direction: rtl;
+}
+
+#logo {
+  float: left;
+  margin-left: -5px;
+}
+.geolocation > a {
+  padding-right: 6px;
+}
+
+.image {
+  float: right;
+  /* margin: 20px auto auto 40px; */
+  margin-left: 40px;
+  margin-right: auto;
+}
