@@ -5,13 +5,17 @@
  * element <meta/> inside of html element </head>
  */
 
+html, body {
+  text-align: right;
+}
+
 #feed {
   direction: rtl;
 }
 
 #logo {
-  float: left;
-  margin-left: -5px;
+  float: right;
+  margin-left: 9;
 }
 .geolocation > a {
   padding-right: 6px;
