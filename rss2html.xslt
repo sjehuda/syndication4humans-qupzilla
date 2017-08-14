@@ -49,7 +49,7 @@ xmlns:atom='http://www.w3.org/2005/Atom'>
                         <xsl:when test='channel/title and not(channel/title="")'>
                             <xsl:value-of select='channel/title'/>
                         </xsl:when>
-                        <xsl:otherwise>QupZilla Feed Viewer</xsl:otherwise>
+                        <xsl:otherwise>Otter Browser Feed Viewer</xsl:otherwise>
                     </xsl:choose>
                 </title>
                 <!-- TODO media='print' -->
@@ -61,58 +61,60 @@ xmlns:atom='http://www.w3.org/2005/Atom'>
             </head>
             <body>
                 <div id='feed'>
-                    <!-- feed logo -->
-                    <xsl:if test='channel/image'>
-                        <div id='logo'>
-                            <xsl:element name='a'>
-                                <xsl:attribute name='href'>
-                                    <xsl:value-of select='channel/image/link'/>
-                                </xsl:attribute>
-                                <xsl:element name='img'>
-                                    <xsl:attribute name='src'>
-                                        <xsl:value-of select='channel/image/url'/>
+                    <header>
+                        <!-- feed logo -->
+                        <xsl:if test='channel/image'>
+                            <div id='logo'>
+                                <xsl:element name='a'>
+                                    <xsl:attribute name='href'>
+                                        <xsl:value-of select='channel/image/link'/>
                                     </xsl:attribute>
-                                    <xsl:attribute name='alt'>
-                                        <!-- xsl:value-of select='channel/image/title'/ -->
-                                        <xsl:text>logo</xsl:text>
-                                    </xsl:attribute>
+                                    <xsl:element name='img'>
+                                        <xsl:attribute name='src'>
+                                            <xsl:value-of select='channel/image/url'/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name='alt'>
+                                            <!-- xsl:value-of select='channel/image/title'/ -->
+                                            <xsl:text>logo</xsl:text>
+                                        </xsl:attribute>
+                                    </xsl:element>
                                 </xsl:element>
-                            </xsl:element>
-                        </div>
-                    </xsl:if>
-                    <!-- feed title -->
-                    <div id='title'>
-                        <xsl:choose>
-                            <xsl:when test='channel/title and not(channel/title="")'>
-                                <xsl:attribute name='title'>
+                            </div>
+                        </xsl:if>
+                        <!-- feed title -->
+                        <div id='title'>
+                            <xsl:choose>
+                                <xsl:when test='channel/title and not(channel/title="")'>
+                                    <xsl:attribute name='title'>
+                                        <xsl:value-of select='channel/title'/>
+                                    </xsl:attribute>
                                     <xsl:value-of select='channel/title'/>
-                                </xsl:attribute>
-                                <xsl:value-of select='channel/title'/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <div class='empty'></div>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </div>
-                    <!-- feed subtitle -->
-                    <xsl:choose>
-                        <xsl:when test='channel/itunes:subtitle'>
-                            <div id='subtitle'>
-                                <xsl:attribute name='title'>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <div class='empty'></div>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </div>
+                        <!-- feed subtitle -->
+                        <xsl:choose>
+                            <xsl:when test='channel/itunes:subtitle'>
+                                <div id='subtitle'>
+                                    <xsl:attribute name='title'>
+                                        <xsl:value-of select='channel/itunes:subtitle'/>
+                                    </xsl:attribute>
                                     <xsl:value-of select='channel/itunes:subtitle'/>
-                                </xsl:attribute>
-                                <xsl:value-of select='channel/itunes:subtitle'/>
-                            </div>
-                        </xsl:when>
-                        <xsl:when test='channel/description'>
-                            <div id='subtitle'>
-                                <xsl:attribute name='title'>
+                                </div>
+                            </xsl:when>
+                            <xsl:when test='channel/description'>
+                                <div id='subtitle'>
+                                    <xsl:attribute name='title'>
+                                        <xsl:value-of select='channel/description'/>
+                                    </xsl:attribute>
                                     <xsl:value-of select='channel/description'/>
-                                </xsl:attribute>
-                                <xsl:value-of select='channel/description'/>
-                            </div>
-                        </xsl:when>
-                    </xsl:choose>
+                                </div>
+                            </xsl:when>
+                        </xsl:choose>
+                    </header>
                     <!-- feed entry -->
                     <xsl:for-each select='channel/item'>
                         <div class='entry'>
