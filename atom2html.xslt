@@ -109,7 +109,7 @@ xmlns:atom='http://www.w3.org/2005/Atom'>
                                 <div class='title'>
                                     <xsl:element name='a'>
                                         <xsl:attribute name='href'>
-                                            <xsl:value-of select='atom:link/@href'/>
+                                            <xsl:value-of select='atom:link[contains(@rel,"alternate")]/@href'/>
                                         </xsl:attribute>
                                         <xsl:attribute name='title'>
                                             <xsl:value-of select='atom:title'/>
