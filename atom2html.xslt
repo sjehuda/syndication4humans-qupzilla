@@ -49,7 +49,7 @@ xmlns:atom='http://www.w3.org/2005/Atom'>
                         <xsl:when test='atom:title and not(atom:title="")'>
                             <xsl:value-of select='atom:title'/>
                         </xsl:when>
-                        <xsl:otherwise>QupZilla Feed Viewer</xsl:otherwise>
+                        <xsl:otherwise>Otter Browser Feed Viewer</xsl:otherwise>
                     </xsl:choose>
                 </title>
                 <!-- TODO media='print' -->
@@ -61,46 +61,48 @@ xmlns:atom='http://www.w3.org/2005/Atom'>
             </head>
             <body>
                 <div id='feed'>
-                    <!-- feed logo -->
-                    <xsl:if test='atom:logo'>
-                        <div id='logo'>
-                            <xsl:element name='a'>
-                                <xsl:attribute name='href'>
-                                    <xsl:value-of select='atom:link[contains(@rel,"alternate")]/@href'/>
-                                </xsl:attribute>
-                                <xsl:element name='img'>
-                                    <xsl:attribute name='src'>
-                                        <xsl:value-of select='atom:logo'/>
+                    <header>
+                        <!-- feed logo -->
+                        <xsl:if test='atom:logo'>
+                            <div id='logo'>
+                                <xsl:element name='a'>
+                                    <xsl:attribute name='href'>
+                                        <xsl:value-of select='atom:link[contains(@rel,"alternate")]/@href'/>
                                     </xsl:attribute>
-                                    <xsl:attribute name='alt'>
-                                        <!-- xsl:value-of select='atom:subtitle'/ -->
-                                        <xsl:text>logo</xsl:text>
-                                    </xsl:attribute>
+                                    <xsl:element name='img'>
+                                        <xsl:attribute name='src'>
+                                            <xsl:value-of select='atom:logo'/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name='alt'>
+                                            <!-- xsl:value-of select='atom:subtitle'/ -->
+                                            <xsl:text>logo</xsl:text>
+                                        </xsl:attribute>
+                                    </xsl:element>
                                 </xsl:element>
-                            </xsl:element>
-                        </div>
-                    </xsl:if>
-                    <!-- feed title -->
-                    <div id='title'>
-                        <xsl:choose>
-                            <xsl:when test='atom:title and not(atom:title="")'>
-                                <xsl:attribute name='title'>
+                            </div>
+                        </xsl:if>
+                        <!-- feed title -->
+                        <div id='title'>
+                            <xsl:choose>
+                                <xsl:when test='atom:title and not(atom:title="")'>
+                                    <xsl:attribute name='title'>
+                                        <xsl:value-of select='atom:title'/>
+                                    </xsl:attribute>
                                     <xsl:value-of select='atom:title'/>
-                                </xsl:attribute>
-                                <xsl:value-of select='atom:title'/>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <div class='empty'></div>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </div>
-                    <!-- feed subtitle -->
-                    <div id='subtitle'>
-                        <xsl:attribute name='title'>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <div class='empty'></div>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </div>
+                        <!-- feed subtitle -->
+                        <div id='subtitle'>
+                            <xsl:attribute name='title'>
+                                <xsl:value-of select='atom:subtitle'/>
+                            </xsl:attribute>
                             <xsl:value-of select='atom:subtitle'/>
-                        </xsl:attribute>
-                        <xsl:value-of select='atom:subtitle'/>
-                    </div>
+                        </div>
+                    </header>
                     <!-- feed entry -->
                     <xsl:for-each select='atom:entry'>
                         <div class='entry'>
