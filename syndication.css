@@ -5,10 +5,23 @@
  * element <meta/> inside of html element </head>
  */
 
+html, body {
+  font: 1em/1.5 "DejaVu Sans", "Trebuchet MS", sans-serif;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background: #dddddd;
-  color: #525c66;
-  font-family: sans-serif;
+  background: linear-gradient(-45deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), linear-gradient(45deg, rgba(0,0,0,0) 25%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 50%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 75%, rgba(255,255,255,0.2) 75%), rgb(2, 115, 127);
+  background-attachment: fixed;
+  background-color: #0F7580;
+  background-size: 500px 500px;
+  color: #333;
+  hyphens: auto;
+  moz-hyphens: auto;
+  ms-hyphens: auto;
+  webkit-hyphens: auto;
 }
 
 body:after {
@@ -25,17 +38,26 @@ body:after {
   font-size: 70%;
   line-height: 1.6;
   margin: 25px auto 10px auto;
-  max-width: 650px;
   overflow: auto;
   padding: 10px 40px;
   text-align: justify;
   text-indent: 20px;
-  -webkit-border-image: url(qrc:html/box-border.png) 25;
-  -webkit-border-image: url(box-border.png) 25;
+  background: #ebf3f4;
+  border: .5em solid #D3DADB;
+  border-width: .5em .5em 0 .5em;
+  margin: 0 auto 0;
+  max-width: 900px;
+  padding: 1em 2% 1em 2%;
+  position: relative;
+  font-style: italic;
 }
 
-#feed * {
-  max-width: 100%;
+header {
+  background: #f8fbfb;
+  background: #fff;
+  margin: 0 -1em 1em -1em;
+  margin-bottom: 1em;
+  padding: 1em 1em 0 1em;
 }
 
 #feed {
@@ -47,24 +69,30 @@ body:after {
   min-width: 400px;
   overflow: auto;
   padding: 10px 40px;
-  -webkit-border-image: url(qrc:html/box-border.png) 25;
-  -webkit-border-image: url(box-border.png) 25;
+  background: #ebf3f4;
+  border: .5em solid #D3DADB;
+  border-width: 0 .5em .5em .5em;
+  margin: 0 auto 1em;
+  max-width: 900px;
+  padding: 0 1em;
+  position: relative;
 }
 
 #logo {
-  border: 2px solid #c7cacc;
-  border-radius: 50%;
   display: inline-block;
-  float: right;
-  margin-right: -5px;
+  float: left;
   overflow: hidden;
   position: relative;
-  height: 5em;
-  width: 5em;
+  height: 60px;
+  width: 60px;
+  margin-right: 9;
+  /* padding-top: 16; */
+  padding-top: 12;
 }
 
 #logo > a > img {
   margin: auto;
+  max-width: 100%;
   position: absolute;
   width: 5em;
   bottom: 0;
@@ -73,42 +101,45 @@ body:after {
   top: 0;
 }
 
+#title, .title {
+  font-family: "DejaVu Serif", Georgia, sans;
+  font-variant: small-caps;
+}
+
 #title {
-  color: #1a4ba4;
   font-size: 160%;
   font-weight: bold;
   margin-bottom: 0px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  margin: 0;
+  font-size: 3em;
 }
 
 #title .empty:before {
-  content: 'QupZilla Feed Viewer';
-}
-
-/* horizontal rule */
-#title:after {
-  background: GrayText;
-  content: "";
-  display: block;
-  height: 1.5px;
-  width: 98%;
+  content: 'Otter Browser Feed Viewer';
 }
 
 #subtitle {
-  color: GrayText;
-  font-size: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 98%;
+  /* horizontal rule */
+  border-bottom:.1em solid #000;
+  font-weight: bold;
+  font-size: 1.5em;
+  font-style: italic;
 }
 
 .entry {
   margin-bottom: 1em;
   padding-top: 2em;
   clear: both;
+}
+
+.entry * {
+  max-width: 98%;
 }
 
 //.clear {
@@ -134,16 +165,32 @@ body:after {
   text-decoration: underline;
 }
 
-.title > a {
-  color: #525c66;
+/* .title > a { */
+a {
+  color: #c30;
 }
 
-.title > a:hover:active {
-  color: #ff0000;
+/* .title > a:hover:active { */
+a:hover:active {
+  background: #c30;
+  border: .2em solid #c30;
+  border-radius: .2em;
+  color: #fff;
+  margin: -.2em;
+  moz-border-radius: .2em;
+  text-decoration: none;
 }
 
-.title > a:visited {
-  color: #551a8b;
+/* .title > a:link { */
+a:link {
+  display: inline-block;
+  text-decoration: underline;
+  text-indent: 0;
+}
+
+/* .title > a:visited { */
+a:visited {
+  color: #c60;
 }
 
 /* TODO place a graphical icon above character ⚲ */
@@ -195,6 +242,12 @@ body:after {
   margin: 5px auto 15px 1%;
   padding: 15px;
   vertical-align: middle;
+  background: #FFEDC9;
+  border: 1px solid #aaa;
+  border-radius: .5em;
+  max-width: 100%;
+  moz-border-radius: .5em;
+  padding: 1em;
 }
 
 /* NOTE the following CSS rules are for demonstration */
@@ -291,4 +344,52 @@ body:after {
 
 .rss2.title:after {
   content: 'RSS 2.0 Warning: Element </title> is missing';
+}
+
+/* actual page styling, from style.css at otter-browser.org */
+
+abbr, acronym {
+  border-bottom:1px dotted #c30;
+}
+
+dt {
+  font-weight:bold;
+}
+
+blockquote {
+  background:#cf9;
+  border-left:.5em solid #0b0;
+  padding:.5em;
+}
+
+blockquote > h3 {
+  margin-top:0;
+}
+
+blockquote > p {
+  margin:-.5em;
+  padding:.5em;
+}
+
+pre, code {
+  background:#eee;
+  color:#000;
+  font-family:"DejaVu Sans Mono", Tahoma, courier, monospace;
+  hyphens:none;
+  moz-hyphens:none;
+  moz-tab-size:2;
+  o-tab-size:2;
+  tab-size:2;
+  webkit-hyphens:none;
+  white-space:pre-wrap;
+}
+
+pre {
+  border:1px solid #090;
+  border-bottom-left-radius:2em;
+  border-left-width:.5em;
+  border-top-right-radius:1em;
+  cursor:text;
+  overflow:auto;
+  padding:.5em;
 }
